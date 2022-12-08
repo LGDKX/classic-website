@@ -1,0 +1,425 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  background-color: black;
+}
+
+.navbar .contact-form{
+float: right ;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar ul{
+  list-style-type: none;
+  min-height: 60px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  flex-basis: auto;
+  background: linear-gradient(0deg, rgba(0,0,0,0) 20%, rgba(0,0,0,0.9836309523809523) 45%, rgba(0,0,0,1) 100%);
+}
+
+#logo{
+  width: 40%;
+}
+
+#scroll{
+  margin-top: 50px;
+}
+
+.navbar li{
+  float: left;
+  color: white;
+}
+.navbar li a{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 215%;
+  color: white;
+}
+
+.navbar li a:hover{
+  background-color: #48484870;
+}
+
+.home{
+  font-family: 'Spectral SC', serif;
+  padding: 20px 20px;
+  font-size: 28px;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(90deg, rgba(1,1,1,1) 7%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 93%),
+              url('../img/gas-mask.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+.home h1{
+  width: 20%;
+}
+
+.intro-1{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 28px;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+              url('../img/metro_out.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-top: 5em;
+}
+
+.intro-1 p{
+  width: 20%;
+}
+
+.intro-2{
+font-family: 'Cinzel', serif;
+text-align: center;
+padding: 20px 20px;
+font-size: 20px;
+background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+            url('../img/city.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+color: white;
+display: flex;
+align-items: center;
+justify-content: left;
+}
+
+.intro-2 p{
+width: 20%;
+}
+
+.intro-3{
+font-family: 'Cinzel', serif;
+text-align: center;
+padding: 20px 20px;
+font-size: 20px;
+background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+            url('../img/train.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+color: white;
+display: flex;
+align-items: center;
+justify-content: left;
+}
+
+.intro-3 p{
+width: 20%;
+}
+
+.character{
+font-family: 'Spectral SC', serif;
+padding: 20px 20px;
+font-size: 28px;
+background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(90deg, rgba(1,1,1,1) 7%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 93%),
+            url('../img/bear.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+color: white;
+text-align: center;
+}
+
+.heroe-thumbnail{
+padding-top: 150px;
+display: flex;
+justify-content: space-evenly;
+filter: opacity(88%);
+}
+
+.char1{
+max-width: 250px;
+border-style: groove;
+border-width: 15px;
+border-color: black;
+padding: 0px 50px ;
+border-radius: 5px;
+background-color: black;
+}
+
+.char2{
+max-width: 250px;
+border-style: groove;
+border-width: 15px;
+border-color: black;
+padding: 0 50px;
+border-radius: 5px;
+background-color: black;
+}
+
+.char3{
+max-width: 250px;
+border-style: groove;
+border-width: 15px;
+border-color: black;
+padding: 0 50px;
+border-radius: 5px;
+background-color: black;
+}
+
+.world-2{
+font-family: 'Cinzel', serif;
+text-align: center;
+padding: 20px 20px;
+font-size: 20px;
+background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(90deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+            url('../img/forest_reverse.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+color: white;
+display: flex;
+align-items: center;
+justify-content: right;
+}
+
+.world-2 h2{
+width: 20%;
+}
+
+.world-3{
+font-family: 'Cinzel', serif;
+text-align: center;
+padding: 20px 20px;
+font-size: 20px;
+background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(90deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+            url('../img/desert_reverse.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+color: white;
+display: flex;
+align-items: center;
+justify-content: right;
+}
+
+.world-3 h3{
+width: 20%;
+}
+
+.world-4{
+font-family: 'Cinzel', serif;
+text-align: center;
+padding: 20px 20px;
+font-size: 20px;
+background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+            url('../img/volga.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+color: white;
+display: flex;
+align-items: center;
+justify-content: left;
+}
+
+.world-4 h3{
+width: 20%;
+}
+
+.monster-1{
+font-family: 'Cinzel', serif;
+text-align: center;
+padding: 20px 20px;
+font-size: 20px;
+background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+            url('../img/watcher.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+color: white;
+display: flex;
+align-items: center;
+justify-content: left;
+}
+
+.monster-1 h2{
+width: 20%;
+}
+
+.monster-2{
+font-family: 'Cinzel', serif;
+text-align: center;
+padding: 20px 20px;
+font-size: 20px;
+background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+            linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+            url('../img/demon.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+color: white;
+display: flex;
+align-items: center;
+justify-content: left;
+}
+
+.monster-2 h3{
+width: 20%;
+}
+
+.gameplay{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 20px;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 10%, rgba(255,255,255,0) 90%, rgba(0,0,0,1) 100%),
+              url('../img/sky.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color: white;
+}
+
+.video{
+  padding-left: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameplay-video{
+  border: 0px ;
+  padding-left: 15em;
+}
+
+.buy-it{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 20px;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+              url('../img/metro_forest.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.buy-it h2{
+width: 20%;
+}
+
+.trailer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nightmare{
+  border-style: groove ; 
+  border-width: 3px;
+  border-color:#463f32;
+  border-radius: 10px;
+  margin-left: 15rem;
+}
+
+.the-form{
+font-family: 'Cinzel', serif;
+text-align: center;
+padding: 20px 20px;
+color: white;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.the-form h2{
+  width: 20%;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*Imported code from https://www.w3schools.com/howto/howto_css_contact_form.asp */
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  margin-right: 40em;
+  margin-left: 40em;
+}
+
+/* End of imported code */
+
+.credits{
+  text-align: center;
+  color: white;
+}
